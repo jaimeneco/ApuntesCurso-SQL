@@ -49,6 +49,7 @@ select * FROM usuarios //// el resultado es que nos ha guardado los 3 registros 
 
 
 # IDENTIFICADORES:
+- Todo lo que sea un id (ejemplo: usuario_id, producto_id...) son autoincrementable.
 - Es un campo que sirve para identificar un registro(fila) entero de forma única.
 - Los identicadores primarios:
     -No pueden ser Null.
@@ -65,21 +66,8 @@ En la captura 3, vemos cómo la información de la segunda tabla id_usuario la l
 Con las foreign keys, que vemos en la captura 3.png, conectando tablas entre sí.
 
 
-### EL CURSO DESCARGA: northwind
-- Aparecen aquí los diagramas, que nos permite visualizar cómo se relacionan los datos
-- captura 4.png
-- Las que tienen un simbolito de llave es la clave, es el campo identificador que traslada todos los datos de la tabla a otras tablas. 
-        - id_empleados. Con info en su interior.
-        - id_clientes. Con info en su interior.
-        - id_shippers. Con info en su interior.
-
-Todas estas componen la tabla Orders, la principal.
 
 
-# Si ponemos esto:
-Select LastName AS apellido FROM usuarios
 
-Nos dará una nueva tabla, cambiando el campo LastName por apellido
 
-- Captura 5.png : ejemplo con precio y cambios de nombre en tablas.
 
