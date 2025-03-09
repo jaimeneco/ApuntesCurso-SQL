@@ -1,6 +1,8 @@
 # -OPERADORES-
 
+# ----------------------------------------------------------------------------------------
 ## OPERADOR BETWEEN y NOT BETWEEN: (se pueden juntar con los operadores de AND, OR y NOT)
+# ----------------------------------------------------------------------------------------
 - Para comparar rangos numéricos. Devolver productos entre 20 y 40 euros. Además que sea de la categoría 6.
 - Incluye los valores límite (BETWEEN 2 AND 4, incluye 2, 3 y 4). 
 - El primer valor siempre debe ser el menor.
@@ -15,7 +17,9 @@ select * FROM Products WHERE Price NOT BETWEEN 20 AND 40 AND CategoryID = 6   //
 select * FROM Employees WHERE BirthDate BETWEEN "1950-0-1" AND "1960-0-1" // Empleados que hayan nacido entre los años 1950 y los 1960, ambos incluídos.
 ```
 
+# ----------------------------------------------------------------------------------------
 ## OPERADOR LIKE y NOT LIKE:(se pueden juntar con los operadores de AND, OR y NOT)
+# ----------------------------------------------------------------------------------------
 - Es un operador de comparación. Se utiliza para buscar y filtrar registros en función de ciertos patrones de cadenas de texto.
 - Funciona parecido a poner un igual (=), pero tienen algunas diferencias.
 
@@ -34,7 +38,9 @@ Select * FROM Employees WHERE LastName LIKE "F_ _ _ _ R"    /// Cuando sé que e
 Select * FROM Employees WHERE LastName LIKE "_ AIM _"    /// Cuando quiero filtrar por LastName que contentan AIM en el centro y tengan una letra a cada lado. Nos podría devolver si los hay por ejemplo: Jaime, Jaima, Saima...
 ```
 
+# ----------------------------------
 ## OPERADOR IS NULL o IS NOT NULL:
+# ----------------------------------
 ```SQL
 select * FROM Products Order by ProductName Asc  /// Te muestra ordenados primero los nulos y luego de pequeño a mayor
 
@@ -47,8 +53,9 @@ WHERE ProductName IS NOT NULL /// Te devuelve todos los valores NO NULLS
 Order by ProductName Asc
 ```
 
-
+# -------------------------------------------------------------
 ## OPERADOR IN y NOT IN: es la introducción a las subconsultas.
+# -------------------------------------------------------------
 - Es un operador lógico.
 - Opera sobre un conjunto de datos
 

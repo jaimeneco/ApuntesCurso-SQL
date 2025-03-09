@@ -1,7 +1,11 @@
+# ------------------
 # LAS CONDICIONES:
+# ------------------
 Sirven para seleccionar y filtrar datos concretos, para evitar hacer una cagada y borrarlo todo. Verifican condiciones y devuelven cosas.
 
+# ----------------------------------------------------------------------------------------
 ## Cláusula WHERE: es la condición más común de SQL. Diferentes formas de filtrar con WHERE:
+# ----------------------------------------------------------------------------------------
 ```SQL
 select ProductName FROM Products /// o para saber toda la info ponemos: select * FROM Products
 WHERE ProductID = 14  ///Buscamos por ID
@@ -23,8 +27,9 @@ WHERE id_turno = 2;
 select * FROM turnos_medicos
 ```
 
-
+# -----------------------------
 # OPERADORES AND, OR y NOT:
+# -----------------------------
 
 ### Quiero obtener los Customers que tengan ID mayor o igual que 50 y menor que 55.
 ```SQL
@@ -89,8 +94,11 @@ AND Price <= 30
 Order by Random()
 LIMIT 3
 ```
+# -----------------------------------------------
+# DISTINTO DE VS NOT, diferencias:
+# -----------------------------------------------
+- ![Captura 6](captura6.png)
 
-# DISTINTO DE VS NOT, diferencias: captura 6.png
 - La diferencia es prácticamente mínima entre ambos conceptos, pero la hay y el funcionamiento es diferente.
 - 'Distinto de' es un operador de <b>COMPARACIÓN</b>. Los operadores de comparación comparan dos valores y nos devuelven True o False.
 - 'NOT' es un operador <b>LÓGICO</b> o <b>Booleano</b>. Estos operadores ya trabajan con Booleanos (true y false)

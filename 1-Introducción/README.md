@@ -1,4 +1,6 @@
+# ----------------
 # INTRODUCCIÓN:
+# ----------------
 ## ¿Qué es SQL?
 - Es álgebra relacional y nos permite guardar y manipular bien la información.
 - Structured Query Language (Lenguaje de consultas estructuradas)

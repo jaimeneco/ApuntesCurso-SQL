@@ -1,6 +1,8 @@
 # SUBCONSULTAS:
 
+# --------------------------------
 ## Funciones de agregación:
+# --------------------------------
 - Nos permite agrupar datos, resumirlos, trabajar con datos estadísticos...
 - Se utilizan con la cláusula select.
 
@@ -34,7 +36,9 @@ Select  ProductName, MAX(Price) FROM Products  /// Nos devuelve el precio máxim
 WHERE ProductName IS NOT NULL
 ```
 
+# --------------------------------
 ## CLÁUSULAS GROUP BY y HAVING:
+# --------------------------------
 - ![GroupBy](captura7.png)
 - ![Ejemplo GroupBy](captura8.png)
 

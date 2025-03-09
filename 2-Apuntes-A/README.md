@@ -1,5 +1,8 @@
+# --------------------
 # TABLAS EN SQL:
-- Captura 1.png
+# --------------------
+- ![Captura1](captura1.png)
+
 - Campo(columna en vertical):             Uno Dos Tres Cuatro
 
 - Valor de campo: cada una de las casillas de las tablas.
@@ -47,8 +50,9 @@ values  id_usuario 1 ('Nebot', 27),
 
 select * FROM usuarios //// el resultado es que nos ha guardado los 3 registros y siempre nos muestra en pantalla lo que hay en el paréntesis
 
-
+# ---------------------
 # IDENTIFICADORES:
+# ---------------------
 - Todo lo que sea un id (ejemplo: usuario_id, producto_id...) son autoincrementable.
 - Es un campo que sirve para identificar un registro(fila) entero de forma única.
 - Los identicadores primarios:
@@ -58,8 +62,10 @@ select * FROM usuarios //// el resultado es que nos ha guardado los 3 registros 
 - Los identifiadores
 id_usuario
 
-- Captura 2.png
-- Captura 3.png
+- ![Captura2](captura2.png)
+
+- ![Captura3](captura3.png)
+
 En la captura 3, vemos cómo la información de la segunda tabla id_usuario la llevamos a la primera tabla pero sólo en una columna (id_usuario)
 
 ## ¿Cómo relacionar tablas?

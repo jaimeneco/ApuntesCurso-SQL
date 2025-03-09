@@ -1,6 +1,10 @@
+# -------------------------------
 # EL CURSO DESCARGA: northwind
-- Aparecen aquí los diagramas, que nos permite visualizar cómo se relacionan los datos
-- captura 4.png
+# -------------------------------
+- Aparecen aquí los diagramas, que nos permite visualizar cómo se relacionan los datos.
+
+- ![Captura4](captura4.png)
+
 - Las que tienen un simbolito de llave es la clave, es el campo identificador que traslada todos los datos de la tabla a otras tablas. 
         - id_empleados. Con info en su interior.
         - id_clientes. Con info en su interior.
@@ -14,7 +18,7 @@ Select LastName AS apellido FROM usuarios
 
 Nos dará una nueva tabla, cambiando el campo LastName por apellido
 
-- Captura 5.png : ejemplo con precio y cambios de nombre en tablas.
+- ![Captura5](captura5.png) : ejemplo con precio y cambios de nombre en tablas.
 
 ## Para ordenar los datos, ponemos esto:
 select * FROM Products
